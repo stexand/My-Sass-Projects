@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #797979; }
+
+header {
+  width: 100%;
+  height: 50em;
+  background: url("../slike/background.jpg");
+  background-size: cover;
+  padding: 2em 20%; }
+  header .mainNavigation {
+    background: #fff;
+    width: 100%;
+    height: 3.7em;
+    padding: .5em 1em; }
+    header .mainNavigation .logo {
+      display: inline-block;
+      width: 20%;
+      font-weight: bold;
+      font-size: 2em; }
+    header .mainNavigation ul {
+      display: inline-block;
+      text-align: right;
+      width: 79%;
+      text-transform: uppercase; }
+      header .mainNavigation ul li {
+        display: inline-block;
+        margin-left: 1em; }
+        header .mainNavigation ul li a {
+          text-decoration: none; }
+          header .mainNavigation ul li a:hover {
+            color: #ff3720; }
+  header h1 {
+    display: block;
+    margin: 22% auto 0;
+    width: 55%;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 1px solid #ff3720; }
+  header h2 {
+    color: #fff;
+    font-weight: normal;
+    text-align: center; }
+
+.redText {
+  color: #ff3720; }
+
+section {
+  width: 100%;
+  padding: 7em 15%;
+  white-space: nowrap; }
+  section h1 {
+    text-align: center;
+    margin-bottom: 2em;
+    text-transform: uppercase; }
+  section .column {
+    display: inline-block;
+    width: 25%;
+    white-space: normal; }
+    section .column img {
+      display: block;
+      margin: 0 auto;
+      width: 80%; }
+    section .column h2 {
+      font-weight: normal;
+      text-align: center;
+      font-size: 1.2em; }
+
+.catalog {
+  background: #f0f0f0; }
+
+.button {
+  display: block;
+  width: 50%;
+  margin: .5em auto 0;
+  padding: .5em  1em;
+  background: #ff3720;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em; }
+  .button:hover {
+    background: #000; }
+
+table {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse; }
+  table th, table td {
+    padding: 1em; }
+  table thead {
+    background: #ff3720; }
+    table thead th {
+      color: #fff; }
+    table thead th:first-child {
+      background: #e42b15; }
+  table tbody {
+    padding: 0 1em; }
+    table tbody tr {
+      border-bottom: 1px solid #797979; }
+      table tbody tr:hover {
+        background: #f0f0f0; }
+      table tbody tr td:first-child {
+        font-weight: bold;
+        background: #f0f0f0; }
+
+footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 1em 20%; }
+  footer:before, footer:after {
+    content: "";
+    display: table; }
+  footer:after {
+    clear: both; }
+  footer .logo {
+    border-bottom: 1px solid #ff3720;
+    font-size: 1.5em; }
+  footer .info {
+    float: left;
+    padding: 1em;
+    color: #fff;
+    font-size: .9em;
+    font-style: italic; }
+  footer iframe {
+    float: right;
+    padding: 1em;
+    text-align: right; }
+
+.pricingButton {
+  display: none; }
+
+@media screen and (max-width: 1250px) {
+  header {
+    padding: 2em 10%; } }
+@media screen and (max-width: 950px) {
+  header {
+    padding: 2em 1%; }
+    header h1 {
+      width: 90%; }
+    header .mainNavigation {
+      height: 2em;
+      padding: .2em 1em; }
+      header .mainNavigation .logo {
+        font-size: 1em; }
+      header .mainNavigation ul {
+        font-size: .9em; }
+
+  section {
+    padding: 5em 5%;
+    white-space: normal; }
+    section .column {
+      width: 49%;
+      margin-bottom: 5em; }
+
+  footer {
+    text-align: center; }
+    footer .info, footer iframe {
+      width: 100%; } }
+@media screen and (max-width: 650px) {
+  header {
+    background: #000;
+    height: auto; }
+    header .mainNavigation {
+      height: auto; }
+      header .mainNavigation ul {
+        width: 100%; }
+        header .mainNavigation ul li {
+          width: 100%;
+          text-align: center;
+          padding: 1em; }
+    header h1 {
+      margin-top: 1em; }
+
+  section .column {
+    width: 100%;
+    margin-bottom: 5em; }
+
+  .button {
+    padding: 2em; }
+
+  .pricingButton {
+    display: block; }
+
+  table {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
